@@ -36,9 +36,9 @@ def main(your_file_path: str, your_access_token=None, your_refresh_token=None):
 
 
 if __name__ == '__main__':
-    your_file_path = ''
+    your_file_path = '/爬虫/27.SSL指纹部分.mp4'
     your_access_token = ''
-    your_refresh_token = ''
+    your_refresh_token = '122.270a30697495b2a271f7301a1e3f7226.YlhyJrngn15BxBaRsMlQOCMYZMYTb7txHiPFa7S.-8W26A'
     if not your_access_token and not your_refresh_token:
         raise '请输入your_access_token或者your_refresh_token'
-    main()
+    main(your_file_path, your_refresh_token=your_refresh_token)
